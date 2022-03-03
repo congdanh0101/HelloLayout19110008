@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/gridviewdata"
+        android:layout_width="200dp"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="9dp"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginBottom="39dp"
+            android:text="Vagabond sack"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/images"
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="21dp"
+            android:src="@drawable/bag" />
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="186dp"
+            android:text="$120"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_123"
+        android:layout_width="200dp"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-219dp"
+        android:layout_marginLeft="200dp"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/tv_belt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginBottom="39dp"
+            android:text="Whiteney belt"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/belt"
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="21dp"
+            android:src="@drawable/belt" />
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="186dp"
+            android:text="$35"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="200dp"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/tv_ring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginBottom="39dp"
+            android:text="Garden strand"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="21dp"
+            android:src="@drawable/ring" />
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="186dp"
+            android:text="$98"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_2"
+        android:layout_width="200dp"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-219dp"
+        android:layout_marginLeft="200dp"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/tv_sock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginBottom="39dp"
+            android:text="Sock"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="21dp"
+            android:src="@drawable/sock" />
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="186dp"
+            android:text="$10"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_12"
+        android:layout_width="200dp"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/tv_glass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginBottom="39dp"
+            android:text="Stella sungglasses"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="21dp"
+            android:src="@drawable/sunglass" />
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="186dp"
+            android:text="$58"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_145"
+        android:layout_width="200dp"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-219dp"
+        android:layout_marginLeft="200dp"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/tv_thing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginBottom="39dp"
+            android:text="Things"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="21dp"
+            android:src="@drawable/thing" />
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="186dp"
+            android:text="$20"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+</LinearLayout>
